@@ -30,7 +30,7 @@
  - mvn clean install
  - Run the application:c
 
-## The application accepts arguments through Spring Boot profiles. You can activate specific profiles based on your desired functionality:
+##### The application accepts arguments through Spring Boot profiles. You can activate specific profiles based on your desired functionality:
 
 excel-to-json: Converts the specified Excel sheet to JSON.
 excel-split: Splits the specified Excel sheet into two based on your criteria.
