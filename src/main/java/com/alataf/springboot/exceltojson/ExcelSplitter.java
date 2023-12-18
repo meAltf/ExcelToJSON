@@ -15,18 +15,18 @@ public class ExcelSplitter {
     public static void main(String[] args) {
 
         //Exact file location for the input file
-        String inputFilePath = "C:\\Users\\alataf.ansari\\Downloads\\GHANA UR 3.8.23-updated.xlsx";
+        String inputFilePath = "exact/path/file.xlsx";
 
         //Exact file locations of the output file you want to store
-        String outputFilePath1 = "D:\\OneDrive - Olam International\\Desktop\\Amend-Quarantine\\ExcelSheet1.xlsx";
-        String outputFilePath2 = "D:\\OneDrive - Olam International\\Desktop\\Amend-Quarantine\\ExcelSheet2.xlsx";
+        String outputFilePath1 = "exact/path/outputfile.xlsx";
+        String outputFilePath2 = "exact/path/outputfile.xlsx";
         
         //D:\OneDrive - Olam International\Desktop\Amend-Quarantine\ExcelSheet1.xlsx
         //D:\OneDrive - Olam International\Desktop\Amend-Quarantine\ExcelSheet2.xlsx
   
 
-        List<Integer> sheet1QuestionIds = Arrays.asList(16, 50);
-        List<Integer> sheet2QuestionIds = Arrays.asList(7, 20, 3854, 3855, 3856, 3857);
+        List<Integer> sheet1QuestionIds = Arrays.asList(1,2);
+        List<Integer> sheet2QuestionIds = Arrays.asList(3,4,5,9,8,6);
 
         try {
             splitExcelSheet(inputFilePath, outputFilePath1, outputFilePath2, sheet1QuestionIds, sheet2QuestionIds);
