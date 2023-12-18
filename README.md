@@ -8,8 +8,8 @@
 - The specific logic and output format will depend on your implementation.
   
 ### Excel sheet splitting: 
--This functionality reads data from an Excel sheet and separates it based on a defined condition (e.g., column value).
--The resulting data is then written to two new Excel sheets.
+- This functionality reads data from an Excel sheet and separates it based on a defined condition (e.g., column value).
+- The resulting data is then written to two new Excel sheets.
 
 ## Getting started
 ### Prerequisites:
