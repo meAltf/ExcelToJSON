@@ -13,7 +13,11 @@ import java.util.List;
 public class ExcelSplitter {
 
     public static void main(String[] args) {
+
+        //Exact file location for the input file
         String inputFilePath = "C:\\Users\\alataf.ansari\\Downloads\\GHANA UR 3.8.23-updated.xlsx";
+
+        //Exact file locations of the output file you want to store
         String outputFilePath1 = "D:\\OneDrive - Olam International\\Desktop\\Amend-Quarantine\\ExcelSheet1.xlsx";
         String outputFilePath2 = "D:\\OneDrive - Olam International\\Desktop\\Amend-Quarantine\\ExcelSheet2.xlsx";
         
