@@ -13,8 +13,8 @@
 
 ## Getting started
 ### Prerequisites:
--Java 11 or greater than this version
--Maven
+- Java 11 or greater than this version
+- Maven
 
 ## Project Structure:
 
